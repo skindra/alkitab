@@ -2,7 +2,7 @@
 
 
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-[#213448] text-white shadow">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#1e3a5f] via-[#2d4a6f] to-[#1e3a5f] text-white shadow-lg">
         <div class="h-16 px-4 flex items-center justify-between">
             <div class="flex items-center gap-2">
 
