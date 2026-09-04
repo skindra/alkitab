@@ -3,24 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Alkitab Online</title>
+    <title>Alkitab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#213448'
-                    }
-                }
-            }
-        }
-    </script>
+    @vite('resources/css/app.css')
 </head>
 
 <body class="bg-gray-100 text-gray-800 dark:bg-primary dark:text-gray-100 transition">
@@ -28,7 +14,7 @@
     <!-- Header -->
     <header class="bg-primary text-white p-4 shadow flex justify-between items-center">
         <div>
-            <h1 class="text-lg font-semibold">📖 Alkitab Online</h1>
+            <h1 class="text-lg font-semibold">📖 Alkitab</h1>
             <p class="text-xs opacity-80">Minimalis & Modern</p>
         </div>
         <button onclick="toggleDarkMode()" class="bg-white/20 px-3 py-1 rounded text-sm hover:bg-white/30 transition">
@@ -85,7 +71,7 @@
 
     <!-- Footer -->
     <footer class="text-center text-xs text-gray-500 dark:text-gray-300 py-4">
-        © 2026 Alkitab Online
+        © 2026 Alkitab
     </footer>
 
     <!-- Script -->

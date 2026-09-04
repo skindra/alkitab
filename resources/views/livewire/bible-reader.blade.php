@@ -1,7 +1,8 @@
 <div class="{{ $darkMode ? 'dark' : '' }} min-h-screen bg-gray-100 text-gray-800 dark:bg-[#213448] dark:text-white">
 
     <!-- HEADER (FIXED) -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#1e3a5f] via-[#2d4a6f] to-[#1e3a5f] text-white shadow-lg">
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#1e3a5f] via-[#2d4a6f] to-[#1e3a5f] text-white shadow-lg">
         <div class="h-16 px-4 flex items-center justify-between">
             <div class="flex items-center gap-2">
                 <!-- Toggle Sidebar (Desktop) -->
@@ -17,7 +18,7 @@
                 </button>
 
                 <div>
-                    <h1 class="text-base font-semibold"><a href="/">📖 Alkitab Online</a></h1>
+                    <h1 class="text-base font-semibold"><a href="/">📖 Alkitab</a></h1>
                     <p class="text-[11px] opacity-80">Minimalis & Modern</p>
                 </div>
             </div>
@@ -229,7 +230,7 @@
     </div>
 
     <footer class="text-center text-xs text-gray-500 dark:text-gray-300 py-4">
-        © 2026 Alkitab Online
+        © 2026 Alkitab
     </footer>
 
 </div>
