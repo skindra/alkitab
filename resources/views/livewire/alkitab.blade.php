@@ -6,8 +6,14 @@
             <h1 class="text-lg font-semibold flex items-center gap-2"><img src="/logo.png" alt="Alkitab" class="w-6 h-6"> Alkitab</h1>
             <p class="text-xs opacity-80">Minimalis & Modern</p>
         </div>
-        <button wire:click="toggleDark" class="bg-white/20 px-3 py-1 rounded text-sm hover:bg-white/30 transition">
-            🌙 Dark
+        <button wire:click="toggleDark" aria-label="Ganti mode gelap"
+            class="flex items-center gap-1 bg-white/20 px-3 py-2 rounded text-sm hover:bg-white/30 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.5" class="w-4 h-4" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21.752 15.002A9.72 9.72 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+            </svg>
+            Dark
         </button>
     </header>
 
@@ -20,7 +26,7 @@
                 @foreach ($books as $book)
                     <li>
                         <button wire:click="selectBook({{ $book->id }})"
-                            class="w-full text-left px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-white/10">
+                            class="w-full text-left px-3 py-2 rounded hover:bg-gray-100 dark:hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary">
                             {{ $book->name }}
                         </button>
                     </li>
@@ -67,6 +73,6 @@
     </div>
 
     <footer class="text-center text-xs text-gray-500 dark:text-gray-300 py-4">
-        © 2026 Alkitab Online
+        © 2026 Alkitab
     </footer>
 </div>
