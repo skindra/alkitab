@@ -18,7 +18,7 @@
                 </button>
 
                 <div>
-                    <h1 class="text-base font-semibold"><a href="/">📖 Alkitab</a></h1>
+                    <h1 class="text-base font-semibold"><a href="/" class="flex items-center gap-2"><img src="/logo.png" alt="Alkitab" class="w-6 h-6"> Alkitab</a></h1>
                     <p class="text-[11px] opacity-80">Minimalis & Modern</p>
                 </div>
             </div>

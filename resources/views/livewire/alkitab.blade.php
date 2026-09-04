@@ -3,7 +3,7 @@
     <!-- Header -->
     <header class="bg-primary text-white p-4 flex justify-between items-center shadow">
         <div>
-            <h1 class="text-lg font-semibold">📖 Alkitab</h1>
+            <h1 class="text-lg font-semibold flex items-center gap-2"><img src="/logo.png" alt="Alkitab" class="w-6 h-6"> Alkitab</h1>
             <p class="text-xs opacity-80">Minimalis & Modern</p>
         </div>
         <button wire:click="toggleDark" class="bg-white/20 px-3 py-1 rounded text-sm hover:bg-white/30 transition">

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Alkitab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.png" type="image/png">
 
     @vite('resources/css/app.css')
 </head>
@@ -14,7 +15,7 @@
     <!-- Header -->
     <header class="bg-primary text-white p-4 shadow flex justify-between items-center">
         <div>
-            <h1 class="text-lg font-semibold">📖 Alkitab</h1>
+            <h1 class="text-lg font-semibold flex items-center gap-2"><img src="/logo.png" alt="Alkitab" class="w-6 h-6"> Alkitab</h1>
             <p class="text-xs opacity-80">Minimalis & Modern</p>
         </div>
         <button onclick="toggleDarkMode()" class="bg-white/20 px-3 py-1 rounded text-sm hover:bg-white/30 transition">
